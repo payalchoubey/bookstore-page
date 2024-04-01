@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="book-store.css">
+</head>
+
+<body>
+    <div id="sectionFirstPage">
+        <div class="main-container p-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-2">
+                        <h1 class="popular-book-heading">Popular Book</h1>
+                    </div>
+                    <div class="d-flex flex-row card-container col-11 ml-3 col-md-10 col-lg-8 col-xl-7 ">
+                        <div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="card-image d-lg-none d-xl-none" />
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="card-image-two d-none d-sm-none d-md-none d-lg-block" />
+                        </div>
+                        <div class="pl-4 pt-3 pt-lg-5">
+                            <h2 class="card-heading">Wings of Fire</h2>
+                            <p class="card-paragraph-one pr-5">An Autobiography of <br />Abdul Kalam</p>
+                            <p class="card-paragraph-two">by Arun Tiwari</p>
+                            <button class="card-button btn btn-primary mt-2 mb-4" onclick="display('sectionWingsOfFire')">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <h2 class="recommended-heading">Recommended Books</h2>
+                    </div>
+                    <div class="d-flex flex-row col-lg-6 pt-3">
+                        <div class="col-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="mini-image" />
+                        </div>
+                        <div class="col-9 pl-5 pt-2">
+                            <h2 class="mini-heading">The 3 mistakes of my life</h2>
+                            <p class="mini-description">Indian author<br />by Chetan Bhagat</p>
+                            <button class="mini-button btn btn-primary" onclick="display('sectionChetanBhagat')">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row mt-3 mb-4 col-lg-6">
+                        <div class="col-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="mini-image" />
+                        </div>
+                        <div class="col-9 pl-5 ml-3 pt-2 ">
+                            <h2 class="mini-heading">Harry Potter</h2>
+                            <p class="mini-description">and the Sorcerer's Stone<br />by J.K.Rowling</p>
+                            <button class="mini-button btn btn-primary" onclick="display('sectionHarryPotter')">Read Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionWingsOfFire">
+        <div class="main-container">
+            <div class="container">
+                <div class="row">
+                    <div class="m-auto pt-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="detailed-image" />
+                    </div>
+                    <div class="col-12 page-cont pt-3">
+                        <h1 class="page-heading">Wings Of Fire</h1>
+                        <p class="page-author">by Arun Tiwari</p>
+                        <p class="page-description p-2">Every common man who by his sheer grit and hard work
+                            achieves success should share his story with the rest for
+                            they may find inspiration and strength to go on,in his story.
+                            The 'Wings of fire' is one such autobiography by visionary scientist
+                            Dr.APJ Abdul Kalam,who from very humble beginnings rose to be the President
+                            of India.The book is full of insights,personal moments and life
+                            experiences of Dr. Kalam.It gives us an understanding on his journey of success.
+                        </p>
+                        <button class="back-button btn btn-warning mb-3" onclick="display('sectionFirstPage')">Back</button>
+                        <button class="buy-now btn btn-primary mb-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionChetanBhagat">
+        <div class="main-container">
+            <div class="container">
+                <div class="row">
+                    <div class="m-auto pt-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="detailed-image" />
+                    </div>
+                    <div class="col-12 page-cont pt-3">
+                        <h1 class="page-heading">The 3 mistakes of my life</h1>
+                        <p class="page-author">by Chetan Bhagat</p>
+                        <p class="page-description p-2">The 3 Mistakes of my life is the third novel written by
+                            eminent Indian Author Chetan Bhagat.Based on cricket,
+                            business and religion,the novel is said against the
+                            backdrop of beautiful city Ahemdabad.Revolving around
+                            three young Indian boys Omi,Ishaan and Govind,the
+                            book goes on to narrate how the three are trying their
+                            best to make ends meet in the city.Based on real events,
+                            the book starts with a dramatic twist,where Bhagat is
+                            reading an e-mail sent by some young person Govind.
+
+                        </p>
+                        <button class="back-button btn btn-warning mb-3" onclick="display('sectionFirstPage')">Back</button>
+                        <button class="buy-now btn btn-primary mb-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHarryPotter">
+        <div class="main-container">
+            <div class="container">
+                <div class="row">
+                    <div class="m-auto pt-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="detailed-image" />
+                    </div>
+                    <div class="col-12 page-cont pt-3">
+                        <h1 class="page-heading">Harry Potter</h1>
+                        <p class="page-author">by J.K.Rowling</p>
+                        <p class="page-description p-2">Harry Potter's life is miserable.His parents are dead and
+                            he's stuck with his heartless relatives,who force him to
+                            live in a tiny closet under the stairs.But his fortune
+                            changes when he recieves a letter that tells him the truth
+                            about himself:he's a wizard.A mysterious visitor rescues
+                            him from his relatives and takes him to his new home,
+                            Hogwarts School of Witchcraft and Wizardry.After a
+                            lifetime of bottling up his magical powers,Harry finally
+                            feels like a normal kid.
+
+                        </p>
+                        <button class="back-button btn btn-warning mb-3" onclick="display('sectionFirstPage')">Back</button>
+                        <button class="buy-now btn btn-primary mb-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
